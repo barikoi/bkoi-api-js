@@ -1,3 +1,4 @@
+
 # bkoi-dev
 
 A small JavaScript library that provides easy interface to use Barikoi API's
@@ -19,7 +20,6 @@ a query string and a callback function and returns an array of locations
 #### Example
 ```js
 //  search for 'cafe'
- 	Bkoi.search('cafe', function(response){
- 		console.log(response); //prints a location array 
- 	})
-});
+Bkoi.search('cafe', function(response){
+ 	console.log(response); //gets a location array 
+})

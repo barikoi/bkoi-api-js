@@ -101,16 +101,16 @@
 
             // GEOCODING //
 
-            Bkoi.geoInfo = function (place_id, cb) {
+            // Bkoi.geoInfo = function (place_id, cb) {
 
-                let geoUrl = 'https://barikoi.xyz/v1/api/search/geocode/' + params.key + '/place/' + place_id
+            //     let geoUrl = 'https://barikoi.xyz/v1/api/search/geocode/' + params.key + '/place/' + place_id
 
-                httpGetAsync(geoUrl, function (response) {
+            //     httpGetAsync(geoUrl, function (response) {
 
-                    cb(response)
+            //         cb(response)
 
-                })
-            }
+            //     })
+            // }
 
 
             // AUTOCOMPLETE //
@@ -153,7 +153,7 @@
             return Bkoi;
 
         } else {
-            console.log( ' MURI KHAW ')
+            console.log( ' INVALID API KEY ')
         }
     }
 

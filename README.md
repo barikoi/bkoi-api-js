@@ -1,7 +1,5 @@
 
 # bkoi-dev
-
-
 A small JavaScript library that provides easy interface to use Barikoi API's
 
 ## Getting started
@@ -25,6 +23,7 @@ a query string and a callback function and returns an array of locations
 Bkoi.search('cafe', function(response){
  	console.log(response) //gets a location array 
 })
+```
 
 ### Reverse Geocode Method
 ##### Bkoi.reverseGeo(long, lat, callback)
@@ -37,6 +36,7 @@ a longitude, a latitude and a callback function and returns a Place object conta
 Bkoi.reverseGeo(90.36668110638857, 23.83723803415923, function (response) {
 	console.log(response)
 })
+```
 
 ### Nearby Method
 ##### Bkoi.nearby(long, lat, callback)
@@ -49,6 +49,6 @@ a longitude, a latitude and a callback function and returns an array of nearby l
 Bkoi.reverseGeo(90.36668110638857, 23.83723803415923, function (response) {
 	console.log(response)
 })
-
+```
 
 

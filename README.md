@@ -8,7 +8,7 @@ A small JavaScript library that provides easy interface to use Barikoi API's
 
 Include [Barikoi](bkoi-lib.js) in your page:  
 ```html
-<script src="https://cdn.jsdelivr.net/gh/barikoi/barikoi-js/dist/bkoikoi.js?key:YOUR_API_KEY"></script>
+<script src="https://cdn.jsdelivr.net/gh/barikoi/barikoi-js/dist/barikoi.js?key:YOUR_API_KEY"></script>
 ```
 
 ## Documentation

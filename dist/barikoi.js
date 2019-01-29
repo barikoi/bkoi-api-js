@@ -101,7 +101,7 @@
 
             // GEOCODING //
 
-            Bkoi.geoCode = function (place_id, cb) {
+            Bkoi.geocode = function (place_id, cb) {
 
                 let geoUrl = 'https://barikoi.xyz/v1/api/search/geocode/' + params.key + '/place/' + place_id
 

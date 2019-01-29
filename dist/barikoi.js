@@ -142,12 +142,10 @@
 
                 httpGetAsync(nearbyUrl, function (response) {
                     
-                     if (Array.isArray(response.Place)) {
-                        return cb(response.Place)
-                    }
+                     
 
 
-                    return cb([])
+                    return cb(response)
                 })
             }
 

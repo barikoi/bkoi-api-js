@@ -141,7 +141,7 @@
                     'longitude=' + longitude + '&latitude=' + latitude
 
                 httpGetAsync(nearbyUrl, function (response) {
-                       console.log(response.Place)
+                    
                      if (Array.isArray(JSON.parse(response.Place))) {
                         return cb(JSON.parse(response.Place))
                     }

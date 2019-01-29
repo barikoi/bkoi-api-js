@@ -142,8 +142,8 @@
 
                 httpGetAsync(nearbyUrl, function (response) {
 
-                     if (Array.isArray(JSON.parse(response).Place)) {
-                        return cb(JSON.parse(response).Place)
+                     if (Array.isArray(JSON.parse(response.Place))) {
+                        return cb(JSON.parse(response.Place))
                     }
 
 

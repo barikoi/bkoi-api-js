@@ -7,7 +7,10 @@
     let _params = _parseQuery(_queryString)
 
     const _bkinput = document.querySelector('.bksearch')
-    _bkinput.style.margin= "0 0 10px 0"
+    if (_bkinput ) {
+        _bkinput.style.margin = "0 0 10px 0"
+        _bkinput.placeholder = "Search here.."
+    }
 
     let _searchData = ''
 

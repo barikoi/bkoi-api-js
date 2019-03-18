@@ -2,8 +2,8 @@
     box-sizing: border-box;
  }
  
- body {
-    font: 16px Arial;
+ .bksearch, .bk-autocomplete-items, .bk-autocomplete-items div  {
+    font: 16px;
  }
  
  /*the container must be positioned relative:*/
@@ -13,14 +13,16 @@
  }
  
  .bksearch {
-    border: 1px solid transparent;
-    background-color: #f1f1f1;
-    padding: 10px;
-    font-size: 16px;
+   border: 1px solid darkgray;
+   padding: 10px;
+   font-size: 16px;
+   box-shadow: 1px 1px 0px 0.5px aliceblue;
+   border-radius: 3px;
+
  }
  
  .bksearch[type=text] {
-    background-color: #f1f1f1;
+    background-color: ghostwhite;
     width: 100%;
  }
  

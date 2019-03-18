@@ -8,12 +8,6 @@ module.exports = function (grunt) {
         cssmin: {
             custom_css: {
                 files: [{
-                    // expand: true,
-                    // cwd: 'src/css/',
-                    // src: ['*.css'],
-                    // dest: 'dist/',
-                    // ext: '.min.css'
-
                     'dist/barikoi.min.css': ['src/css/barikoi.css']
                 }]
             }
@@ -32,24 +26,6 @@ module.exports = function (grunt) {
                 }
             }
         },
-
-        // Clean fooolder & flies w/clean
-
-        // clean: {
-        //     css_vendors: ['build/css/app-custom.css'],
-        //     js: ['build/js/all-ctrl.js']
-        //   },
-
-        // Watch w/watch
-        //   watch: {
-        //     scripts: {
-        //       files: ['views/assets/css/custom-css/*.css', 'js/controller/*.js', 'js/service/*.js'],
-        //       tasks: ['concat', 'cssmin', 'uglify', 'clean'],
-        //       options: {
-        //         spawn: false,
-        //       },
-        //     },
-        //   },
     })
 
     // Concat multiple files into one file
@@ -60,9 +36,6 @@ module.exports = function (grunt) {
 
     // Uglify teh jae-ess
     grunt.loadNpmTasks('grunt-contrib-uglify-es')
-
-    // Clean flieees & fleees
-    grunt.loadNpmTasks('grunt-contrib-clean')
 
     // Check for file changes
     grunt.loadNpmTasks('grunt-contrib-watch')

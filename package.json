@@ -1,0 +1,27 @@
+{
+  "name": "barikoi.js",
+  "version": "1.0.0",
+  "description": "A small JavaScript library that provides easy interface to use Barikoi API's",
+  "main": "barikoi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barikoi/barikoi-js.git"
+  },
+  "author": "barikoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barikoi/barikoi-js/issues"
+  },
+  "homepage": "https://github.com/barikoi/barikoi-js#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}

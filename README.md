@@ -1,5 +1,6 @@
 
 # bkoi-dev
+# barikoi-js
 A small JavaScript library that provides easy interface to use Barikoi API's
 
 ## Getting started

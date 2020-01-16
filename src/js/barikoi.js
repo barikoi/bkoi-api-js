@@ -213,7 +213,7 @@
             
             // REVERSE GEOCODING //
             Bkoi.reverseGeo = function(longitude, latitude, cb) {
-                let reverseGeoUrl = 'https://admin.barikoi.xyz/v1/api/search/reverse/geocode/' + _params.key + '/place?' +
+                let reverseGeoUrl = 'https://barikoi.xyz/v1/api/search/reverse/geocode/' + _params.key + '/place?' +
                     'longitude=' + longitude + '&latitude=' + latitude
                 _httpGetAsync(reverseGeoUrl, function(response) {
                     cb(response)
@@ -222,7 +222,7 @@
 
             // GEOCODING //
             Bkoi.geocode = function(place_id, cb) {
-                let geoUrl = 'https://admin.barikoi.xyz/v1/api/search/geocode/' + _params.key + '/place/' + place_id
+                let geoUrl = 'https://barikoi.xyz/v1/api/search/geocode/' + _params.key + '/place/' + place_id
                 _httpGetSync(geoUrl, function(response) {
                     cb(response)
                 })
@@ -230,7 +230,7 @@
 
             // _autocomplete //
             Bkoi.search = function(query, cb) {
-                let searchUrl = 'https://admin.barikoi.xyz/v1/api/search/autocomplete/' + _params.key + '/place?q=' + query
+                let searchUrl = 'https://barikoi.xyz/v1/api/search/autocomplete/' + _params.key + '/place?q=' + query
                 _httpGetAsync(searchUrl, function(response) {
                     if (Array.isArray(JSON.parse(response).places)) {
                         return cb(JSON.parse(response).places)
@@ -241,7 +241,7 @@
 
             // NEARBY //
             Bkoi.nearby = function(longitude, latitude, cb) {
-                let nearbyUrl = 'https://admin.barikoi.xyz/v1/api/search/nearby/' + _params.key + '/0.5/10?' +
+                let nearbyUrl = 'https://barikoi.xyz/v1/api/search/nearby/' + _params.key + '/0.5/10?' +
                     'longitude=' + longitude + '&latitude=' + latitude
                 _httpGetAsync(nearbyUrl, function(response) {
                     return cb(response)

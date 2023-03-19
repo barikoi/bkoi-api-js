@@ -1,6 +1,6 @@
-import { BarikoiProps } from './types'
+import { BkoiApiProps } from './types'
 
-export class Barikoi {
+export class BkoiApi {
   // Properties
   #apiKey = ''
   #apiList = [
@@ -12,7 +12,7 @@ export class Barikoi {
   ]
 
   // Constructor
-  constructor(options: BarikoiProps) {
+  constructor(options: BkoiApiProps) {
     this.#apiKey = options?.apiKey ?? ''
   }
 

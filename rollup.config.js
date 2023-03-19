@@ -7,9 +7,9 @@ export default [
   {
     input: 'index.ts',
     output: {
-      file: 'dist/iife/barikoi-js.js',
+      file: 'dist/iife/bkoiapi-js.js',
       format: 'iife',
-      name: 'barikoi'
+      name: 'bkoiapi'
     },
     plugins: [
       clear({ targets: [ 'dist' ] }),

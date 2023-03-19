@@ -1,5 +1,5 @@
 {
-  "name": "barikoi-js",
+  "name": "bkoiapi-js",
   "version": "2.0.0",
   "description": "JavaScript library to consume Barikoi API",
   "main": "index.ts",

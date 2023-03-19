@@ -1,4 +1,4 @@
-export interface BarikoiProps {
+export interface BkoiApiProps {
   apiKey: string
 }
 

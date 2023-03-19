@@ -1,1 +1,1 @@
-export * from './Barikoi'
+export * from './BkoiApi'

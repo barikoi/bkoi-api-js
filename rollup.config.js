@@ -7,7 +7,7 @@ export default [
   {
     input: 'index.ts',
     output: {
-      file: 'dist/iife/bkoiapi-js.js',
+      file: 'dist/iife/bkoi-api.js',
       format: 'iife',
       name: 'bkoiapi'
     },

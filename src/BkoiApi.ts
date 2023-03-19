@@ -41,7 +41,7 @@ export class BkoiApi {
       })
     }
 
-    return fetch(url + new URLSearchParams(params).toString(), { headers: options?.headers ?? {}, method: 'GET', mode: 'cors', ...options })
+    return fetch(url + new URLSearchParams(params).toString(), { headers: options?.headers ?? {}, method: 'GET', ...options })
       .then(res => {
         return res.json()
       })
